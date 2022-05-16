@@ -1,0 +1,90 @@
+body {
+    font: small 'Lucida Grande', Verdana, Arial, sans-serif;
+}
+
+
+section#check {
+    color: teal;
+    font-size: 140%;
+    text-align: center;
+    font-weight: bold;
+    background: LightCyan;
+}
+
+body p#this {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+form input#submit {
+    background: teal;
+    border-style: outset;
+}
+
+form input#drug_input1 {
+    border-color: teal;
+}
+
+    
+h1 {
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+    padding: 40px;
+    text-align: center;
+}
+h2 {
+    font-size: 130%;
+    color: #1abc9c;
+    font-weight: bold;
+}
+h3 {
+    font-size: 130%;
+    color: #1abc9c;
+    font-weight: bold;
+}
+
+section#drug_results1 p {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+section#drug_results2 p {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+/* the results section should be initially invisible */
+section#drug_results1 {
+    display: none;
+}
+
+section#drug_results2 {
+    display: none;
+}
+section#check {
+    display: none;
+}
+
+table#table1 td {
+    border-collapse: collapse;
+    margin-bottom: 50px;
+    min-width: 200px;
+}
+table#table2 {
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+table thead th {
+    font-weight: bold;
+    font-size: 120%; 
+}
+
+table td {
+    border: 1px solid rgb(200,200,200);
+    padding: 2px 10px;
+}

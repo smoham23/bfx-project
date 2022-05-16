@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8"/>
+        <title>Final Project by Shadi Mohammadabadi</title>
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" type="text/css" href="css/search.css" />
+        <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css"/>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/search.js"></script>    
+</head>
+<body id="main">
+        <h1>Drug Interaction Checker</h1>
+        <form name='drug_search' id='drug_search' action=''>
+            <input name='input_drug1' id='input_drug1' type='search' value= '' autofocus='autofocus' placeholder='Enter a drug name'/>
+            <input name='input_drug2' id='input_drug2' type='search' value= '' autofocus='autofocus' placeholder='Enter a drug name'/>
+            <input name='submit' type='submit' id='submit' value='SEARCH'>
+        </form>
+    <p id='this'>DISCLAIMER: The information contained herein should NOT be used as a substitute for the advice of an appropriately qualified and licensed physician or other health care provider.</p>
+    <section id='check'>
+        <p>
+            <span id='check'>none</span>
+        </p>
+    </section>
+    <section id='drug_results1'>
+        <h2>
+            <span id='drug1'>unknown</span> Interactions
+        </h2>
+        <p>
+            <span id='count1'>0</span> interactions found.
+        </p>
+        <table>
+            <thead>
+            <tr>
+                <th>Interactions</th>
+            </tr>
+            </thead>
+            <tbody id='table1'>
+                 <!-- this will be filled in by javascript when there are results -->
+            </tbody>
+        </table>
+    </section>
+    <section id='drug_results2'>
+        <h3>
+            <span id='drug2'>unknown</span> Interactions
+        </h3>
+        <p>
+            <span id='count2'>0</span> interactions found.
+        </p>
+        <table>
+            <thead>
+            <tr>
+                <th>Interactions</th>
+            </tr>
+            </thead>
+            <tbody id='table2'>
+                 <!-- this will be filled in by javascript when there are results -->
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
